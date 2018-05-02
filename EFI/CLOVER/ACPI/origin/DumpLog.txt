@@ -1,0 +1,138 @@
+6:540  0:453  Found BIOS RSDP at F0000
+6:540  0:000  Printing ACPI tables from RSDP F0000 ...
+6:540  0:000   F0000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+6:540  0:000    (Xsdt: 78E91090, Rsdt: 78E91028)
+6:540  0:000    78E91090: 'XSDT', 'Notebook', Rev: 1, Len: 164
+6:540  0:000    78E91028: 'RSDT', 'Notebook', Rev: 1, Len: 100
+6:540  0:000    Tables in Xsdt: 16
+6:540  0:000    0. 78EA7940: 'FACP', 'Notebook', Rev: 5, Len: 268
+6:540  0:000        (Dsdt: 78E91258, Facs: 79B19F80, XDsdt: 78E91258, XFacs: 0)
+6:540  0:000        78E91258: 'DSDT', 'Notebook', Rev: 2, Len: 91879
+6:541  0:000        79B19F80: 'FACS', Ver: 2, Len: 64
+6:541  0:000    1. 78EA7A50: 'APIC', 'Notebook', Rev: 3, Len: 114
+6:541  0:000    2. 78EA7AC8: 'FPDT', 'Notebook', Rev: 1, Len: 68
+6:541  0:000    3. 78EA7B10: 'ECDT', 'Notebook', Rev: 1, Len: 193
+6:541  0:000    4. 78EA7BD8: 'LPIT', '', Rev: 1, Len: 148
+6:541  0:000    5. 78EA7C70: 'SSDT', 'zpoddult', Rev: 1, Len: 372
+6:541  0:000    6. 78EA7DE8: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1238
+6:541  0:000    7. 78EA82C0: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+6:541  0:000    8. 78EA8D98: 'MCFG', 'Notebook', Rev: 1, Len: 60
+6:541  0:000    9. 78EA8DD8: 'SSDT', 'DptfTabl', Rev: 1, Len: 12397
+6:541  0:000    10. 78EABE48: 'HPET', 'Notebook', Rev: 1, Len: 56
+6:541  0:000    11. 78EABE80: 'SSDT', 'SataTabl', Rev: 1, Len: 664
+6:541  0:000    12. 78EAC118: 'SSDT', 'SaSsdt ', Rev: 1, Len: 16174
+6:541  0:000    13. 78EB0048: 'SSDT', 'SgPch', Rev: 1, Len: 3241
+6:541  0:000    14. 78EB0CF8: 'DMAR', 'HSW ', Rev: 1, Len: 176
+6:541  0:000    15. 78EB0DA8: 'SSDT', 'OptTabl', Rev: 1, Len: 5272
+6:541  0:000    Tables in Rsdt: 16
+6:541  0:000    0. 78E91148: 'FACP', 'Notebook', Rev: 2, Len: 268
+6:541  0:000        (Dsdt: 78E91258, Facs: 79B19F40)
+6:541  0:000        78E91258: 'DSDT', 'Notebook', Rev: 2, Len: 91879
+6:542  0:000        79B19F40: 'FACS', Ver: 0, Len: 64
+6:542  0:000    1. 78EA7A50: 'APIC', 'Notebook', Rev: 3, Len: 114
+6:542  0:000    2. 78EA7AC8: 'FPDT', 'Notebook', Rev: 1, Len: 68
+6:542  0:000    3. 78EA7B10: 'ECDT', 'Notebook', Rev: 1, Len: 193
+6:542  0:000    4. 78EA7BD8: 'LPIT', '', Rev: 1, Len: 148
+6:542  0:000    5. 78EA7C70: 'SSDT', 'zpoddult', Rev: 1, Len: 372
+6:542  0:000    6. 78EA7DE8: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1238
+6:542  0:000    7. 78EA82C0: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+6:542  0:000    8. 78EA8D98: 'MCFG', 'Notebook', Rev: 1, Len: 60
+6:542  0:000    9. 78EA8DD8: 'SSDT', 'DptfTabl', Rev: 1, Len: 12397
+6:542  0:000    10. 78EABE48: 'HPET', 'Notebook', Rev: 1, Len: 56
+6:542  0:000    11. 78EABE80: 'SSDT', 'SataTabl', Rev: 1, Len: 664
+6:542  0:000    12. 78EAC118: 'SSDT', 'SaSsdt ', Rev: 1, Len: 16174
+6:542  0:000    13. 78EB0048: 'SSDT', 'SgPch', Rev: 1, Len: 3241
+6:542  0:000    14. 78EB0CF8: 'DMAR', 'HSW ', Rev: 1, Len: 176
+6:542  0:000    15. 78EB0DA8: 'SSDT', 'OptTabl', Rev: 1, Len: 5272
+6:542  0:000  Found UEFI Acpi 2.0 RSDP at 78E91000
+6:542  0:000  Saving ACPI tables from RSDP 78E91000 to EFI\CLOVER\ACPI\origin ...
+6:542  0:000   78E91000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+6:542  0:000    (Xsdt: 78E91090, Rsdt: 78E91028)
+6:542  0:000    78E91090: 'XSDT', 'Notebook', Rev: 1, Len: 164
+6:542  0:000    78E91028: 'RSDT', 'Notebook', Rev: 1, Len: 100
+6:542  0:000    Tables in Xsdt: 16
+6:542  0:000    0. 78EA7940: 'FACP', 'Notebook', Rev: 5, Len: 268
+6:542  0:000        (Dsdt: 78E91258, Facs: 79B19F80, XDsdt: 78E91258, XFacs: 0)
+6:542  0:000        78E91258: 'DSDT', 'Notebook', Rev: 2, Len: 91879
+6:543  0:000        79B19F80: 'FACS', Ver: 2, Len: 64
+6:543  0:000    1. 78EA7A50: 'APIC', 'Notebook', Rev: 3, Len: 114
+6:543  0:000    2. 78EA7AC8: 'FPDT', 'Notebook', Rev: 1, Len: 68
+6:543  0:000    3. 78EA7B10: 'ECDT', 'Notebook', Rev: 1, Len: 193
+6:543  0:000    4. 78EA7BD8: 'LPIT', '', Rev: 1, Len: 148
+6:543  0:000    5. 78EA7C70: 'SSDT', 'zpoddult', Rev: 1, Len: 372
+6:543  0:000    6. 78EA7DE8: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1238
+6:543  0:000    7. 78EA82C0: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+6:543  0:000    8. 78EA8D98: 'MCFG', 'Notebook', Rev: 1, Len: 60
+6:543  0:000    9. 78EA8DD8: 'SSDT', 'DptfTabl', Rev: 1, Len: 12397
+6:543  0:000    10. 78EABE48: 'HPET', 'Notebook', Rev: 1, Len: 56
+6:543  0:000    11. 78EABE80: 'SSDT', 'SataTabl', Rev: 1, Len: 664
+6:543  0:000    12. 78EAC118: 'SSDT', 'SaSsdt ', Rev: 1, Len: 16174
+6:543  0:000    13. 78EB0048: 'SSDT', 'SgPch', Rev: 1, Len: 3241
+6:543  0:000    14. 78EB0CF8: 'DMAR', 'HSW ', Rev: 1, Len: 176
+6:543  0:000    15. 78EB0DA8: 'SSDT', 'OptTabl', Rev: 1, Len: 5272
+6:543  0:000    Tables in Rsdt: 16
+6:543  0:000    0. 78E91148: 'FACP', 'Notebook', Rev: 2, Len: 268
+6:543  0:000        (Dsdt: 78E91258, Facs: 79B19F40)
+6:543  0:000        78E91258: 'DSDT', 'Notebook', Rev: 2, Len: 91879
+6:544  0:000        79B19F40: 'FACS', Ver: 0, Len: 64
+6:544  0:000    1. 78EA7A50: 'APIC', 'Notebook', Rev: 3, Len: 114
+6:544  0:000    2. 78EA7AC8: 'FPDT', 'Notebook', Rev: 1, Len: 68
+6:544  0:000    3. 78EA7B10: 'ECDT', 'Notebook', Rev: 1, Len: 193
+6:544  0:000    4. 78EA7BD8: 'LPIT', '', Rev: 1, Len: 148
+6:544  0:000    5. 78EA7C70: 'SSDT', 'zpoddult', Rev: 1, Len: 372
+6:544  0:000    6. 78EA7DE8: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1238
+6:544  0:000    7. 78EA82C0: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+6:544  0:000    8. 78EA8D98: 'MCFG', 'Notebook', Rev: 1, Len: 60
+6:544  0:000    9. 78EA8DD8: 'SSDT', 'DptfTabl', Rev: 1, Len: 12397
+6:544  0:000    10. 78EABE48: 'HPET', 'Notebook', Rev: 1, Len: 56
+6:544  0:000    11. 78EABE80: 'SSDT', 'SataTabl', Rev: 1, Len: 664
+6:544  0:000    12. 78EAC118: 'SSDT', 'SaSsdt ', Rev: 1, Len: 16174
+6:544  0:000    13. 78EB0048: 'SSDT', 'SgPch', Rev: 1, Len: 3241
+6:544  0:000    14. 78EB0CF8: 'DMAR', 'HSW ', Rev: 1, Len: 176
+6:544  0:000    15. 78EB0DA8: 'SSDT', 'OptTabl', Rev: 1, Len: 5272
+6:544  0:000  Found UEFI Acpi 1.0 RSDP at 78E91000
+6:544  0:000  Printing ACPI tables from RSDP 78E91000 ...
+6:544  0:000   78E91000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+6:544  0:000    (Xsdt: 78E91090, Rsdt: 78E91028)
+6:544  0:000    78E91090: 'XSDT', 'Notebook', Rev: 1, Len: 164
+6:544  0:000    78E91028: 'RSDT', 'Notebook', Rev: 1, Len: 100
+6:544  0:000    Tables in Xsdt: 16
+6:544  0:000    0. 78EA7940: 'FACP', 'Notebook', Rev: 5, Len: 268
+6:544  0:000        (Dsdt: 78E91258, Facs: 79B19F80, XDsdt: 78E91258, XFacs: 0)
+6:544  0:000        78E91258: 'DSDT', 'Notebook', Rev: 2, Len: 91879
+6:545  0:000        79B19F80: 'FACS', Ver: 2, Len: 64
+6:545  0:000    1. 78EA7A50: 'APIC', 'Notebook', Rev: 3, Len: 114
+6:545  0:000    2. 78EA7AC8: 'FPDT', 'Notebook', Rev: 1, Len: 68
+6:545  0:000    3. 78EA7B10: 'ECDT', 'Notebook', Rev: 1, Len: 193
+6:545  0:000    4. 78EA7BD8: 'LPIT', '', Rev: 1, Len: 148
+6:545  0:000    5. 78EA7C70: 'SSDT', 'zpoddult', Rev: 1, Len: 372
+6:545  0:000    6. 78EA7DE8: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1238
+6:545  0:000    7. 78EA82C0: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+6:545  0:000    8. 78EA8D98: 'MCFG', 'Notebook', Rev: 1, Len: 60
+6:545  0:000    9. 78EA8DD8: 'SSDT', 'DptfTabl', Rev: 1, Len: 12397
+6:545  0:000    10. 78EABE48: 'HPET', 'Notebook', Rev: 1, Len: 56
+6:545  0:000    11. 78EABE80: 'SSDT', 'SataTabl', Rev: 1, Len: 664
+6:545  0:000    12. 78EAC118: 'SSDT', 'SaSsdt ', Rev: 1, Len: 16174
+6:545  0:000    13. 78EB0048: 'SSDT', 'SgPch', Rev: 1, Len: 3241
+6:545  0:000    14. 78EB0CF8: 'DMAR', 'HSW ', Rev: 1, Len: 176
+6:545  0:000    15. 78EB0DA8: 'SSDT', 'OptTabl', Rev: 1, Len: 5272
+6:545  0:000    Tables in Rsdt: 16
+6:545  0:000    0. 78E91148: 'FACP', 'Notebook', Rev: 2, Len: 268
+6:545  0:000        (Dsdt: 78E91258, Facs: 79B19F40)
+6:545  0:000        78E91258: 'DSDT', 'Notebook', Rev: 2, Len: 91879
+6:546  0:000        79B19F40: 'FACS', Ver: 0, Len: 64
+6:546  0:000    1. 78EA7A50: 'APIC', 'Notebook', Rev: 3, Len: 114
+6:546  0:000    2. 78EA7AC8: 'FPDT', 'Notebook', Rev: 1, Len: 68
+6:546  0:000    3. 78EA7B10: 'ECDT', 'Notebook', Rev: 1, Len: 193
+6:546  0:000    4. 78EA7BD8: 'LPIT', '', Rev: 1, Len: 148
+6:546  0:000    5. 78EA7C70: 'SSDT', 'zpoddult', Rev: 1, Len: 372
+6:546  0:000    6. 78EA7DE8: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1238
+6:546  0:000    7. 78EA82C0: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+6:546  0:000    8. 78EA8D98: 'MCFG', 'Notebook', Rev: 1, Len: 60
+6:546  0:000    9. 78EA8DD8: 'SSDT', 'DptfTabl', Rev: 1, Len: 12397
+6:546  0:000    10. 78EABE48: 'HPET', 'Notebook', Rev: 1, Len: 56
+6:546  0:000    11. 78EABE80: 'SSDT', 'SataTabl', Rev: 1, Len: 664
+6:546  0:000    12. 78EAC118: 'SSDT', 'SaSsdt ', Rev: 1, Len: 16174
+6:546  0:000    13. 78EB0048: 'SSDT', 'SgPch', Rev: 1, Len: 3241
+6:546  0:000    14. 78EB0CF8: 'DMAR', 'HSW ', Rev: 1, Len: 176
+6:546  0:000    15. 78EB0DA8: 'SSDT', 'OptTabl', Rev: 1, Len: 5272

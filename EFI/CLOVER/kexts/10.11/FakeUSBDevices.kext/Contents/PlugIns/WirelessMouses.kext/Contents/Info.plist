@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.m-dudarev.WirelessMouses</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>WirelessMouses</string>
+	<key>CFBundlePackageType</key>
+	<string>KEXT</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>9.9.9</string>
+	<key>IOKitPersonalities</key>
+	<dict>
+		<key>Logitech Wireless Mouses</key>
+		<dict>
+			<key>AppleHIDMouseVersion</key>
+			<integer>256</integer>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOHIDFamily</string>
+			<key>IOClass</key>
+			<string>IOHIDEventDriver</string>
+			<key>IOProviderClass</key>
+			<string>IOHIDInterface</string>
+			<key>ProductIDArray</key>
+			<array>
+				<integer>50478</integer>
+				<integer>50479</integer>
+			</array>
+			<key>VendorID</key>
+			<integer>1133</integer>
+		</dict>
+		<key>HP Wireless Mouses</key>
+		<dict>
+			<key>AppleHIDMouseVersion</key>
+			<integer>256</integer>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOHIDFamily</string>
+			<key>IOClass</key>
+			<string>IOHIDEventDriver</string>
+			<key>IOProviderClass</key>
+			<string>IOHIDInterface</string>
+			<key>ProductIDArray</key>
+			<array>
+				<integer>33799</integer>
+			</array>
+			<key>VendorID</key>
+			<integer>1008</integer>
+		</dict>
+		<key>Rapoo Wireless Mouses</key>
+		<dict>
+			<key>AppleHIDMouseVersion</key>
+			<integer>256</integer>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IOHIDFamily</string>
+			<key>IOClass</key>
+			<string>IOHIDEventDriver</string>
+			<key>IOProviderClass</key>
+			<string>IOHIDInterface</string>
+			<key>ProductIDArray</key>
+			<array>
+				<integer>5892</integer>
+			</array>
+			<key>VendorID</key>
+			<integer>4400</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>
